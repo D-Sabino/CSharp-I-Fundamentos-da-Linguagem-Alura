@@ -1,0 +1,10 @@
+C:\Users\felil\OneDrive\Área de Trabalho\Cursos\Alura\CSharp-I-Fundamentos-da-Linguagem-Alura\OiMundo\OiMundo\bin\Debug\OiMundo.exe.config
+C:\Users\felil\OneDrive\Área de Trabalho\Cursos\Alura\CSharp-I-Fundamentos-da-Linguagem-Alura\OiMundo\OiMundo\bin\Debug\OiMundo.exe
+C:\Users\felil\OneDrive\Área de Trabalho\Cursos\Alura\CSharp-I-Fundamentos-da-Linguagem-Alura\OiMundo\OiMundo\bin\Debug\OiMundo.pdb
+C:\Users\felil\OneDrive\Área de Trabalho\Cursos\Alura\CSharp-I-Fundamentos-da-Linguagem-Alura\OiMundo\OiMundo\obj\Debug\OiMundo.csprojAssemblyReference.cache
+C:\Users\felil\OneDrive\Área de Trabalho\Cursos\Alura\CSharp-I-Fundamentos-da-Linguagem-Alura\OiMundo\OiMundo\obj\Debug\OiMundo.Form1.resources
+C:\Users\felil\OneDrive\Área de Trabalho\Cursos\Alura\CSharp-I-Fundamentos-da-Linguagem-Alura\OiMundo\OiMundo\obj\Debug\OiMundo.Properties.Resources.resources
+C:\Users\felil\OneDrive\Área de Trabalho\Cursos\Alura\CSharp-I-Fundamentos-da-Linguagem-Alura\OiMundo\OiMundo\obj\Debug\OiMundo.csproj.GenerateResource.cache
+C:\Users\felil\OneDrive\Área de Trabalho\Cursos\Alura\CSharp-I-Fundamentos-da-Linguagem-Alura\OiMundo\OiMundo\obj\Debug\OiMundo.csproj.CoreCompileInputs.cache
+C:\Users\felil\OneDrive\Área de Trabalho\Cursos\Alura\CSharp-I-Fundamentos-da-Linguagem-Alura\OiMundo\OiMundo\obj\Debug\OiMundo.exe
+C:\Users\felil\OneDrive\Área de Trabalho\Cursos\Alura\CSharp-I-Fundamentos-da-Linguagem-Alura\OiMundo\OiMundo\obj\Debug\OiMundo.pdb
