@@ -69,5 +69,23 @@ namespace CaixaEletronico
 
             
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            int idade = 25;
+            bool brasileira = true;
+
+            if (brasileira && idade >= 16)
+            {
+                MessageBox.Show("Você pode votar!");
+            } else if (idade < 16)
+            {
+                MessageBox.Show("Você precisa ter mais de 16 anos para votar!");
+            }
+            else
+            {
+                MessageBox.Show("Você precisa ser um cidadão brasileiro para votar!");
+            }
+        }
     }
 }
