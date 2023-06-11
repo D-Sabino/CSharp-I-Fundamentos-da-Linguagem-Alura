@@ -24,9 +24,23 @@ namespace CaixaEletronico
 
             double saldo = 100.0;
             double valor = 10.0;
-            double saldoAposSaque = saldo - valor;
+            bool podeSacar = (valor <= saldo) && (valor >= 0) ;
 
-            MessageBox.Show("O saldo atual é: " + saldoAposSaque);
+            if (podeSacar )
+            {
+                double saldoAposSaque = saldo - valor;
+
+                MessageBox.Show("O saldo foi realizado com sucesso!");
+                MessageBox.Show("O saldo atual é: " + saldoAposSaque);
+            } else
+            {
+                MessageBox.Show("Saldo insuficiente");
+            }
+
+                
+
+            
+
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -52,6 +66,8 @@ namespace CaixaEletronico
             a2 = (-b - Math.Sqrt(delta)) / (2 * a);
 
             MessageBox.Show("A1 = " + a1 + "\nA2 = " + a2);
+
+            
         }
     }
 }
