@@ -87,5 +87,32 @@ namespace CaixaEletronico
                 MessageBox.Show("Você precisa ser um cidadão brasileiro para votar!");
             }
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            double valorDaNotaFiscal = 100;
+            double imposto;
+
+            if (valorDaNotaFiscal < 1000)
+            {
+                imposto = valorDaNotaFiscal * 0.02;
+                MessageBox.Show("O imposto sera de " + imposto);
+            }
+            else if (valorDaNotaFiscal >= 1000 && valorDaNotaFiscal < 3000)
+            {
+                imposto = valorDaNotaFiscal * 0.025;
+                MessageBox.Show("O imposto sera de " + imposto);
+            }
+            else if (valorDaNotaFiscal >= 3000 && valorDaNotaFiscal < 7000)
+            {
+                imposto = valorDaNotaFiscal * 0.028;
+                MessageBox.Show("O imposto sera de " + imposto);
+            }
+            else if (valorDaNotaFiscal >= 7000)
+            {
+                imposto = valorDaNotaFiscal * 0.03;
+                MessageBox.Show("O imposto sera de " + imposto);
+            }
+        }
     }
 }
