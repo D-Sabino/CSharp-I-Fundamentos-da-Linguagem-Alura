@@ -137,5 +137,65 @@ namespace CaixaEletronico
 
 
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+
+            int[] array = new int[100];
+            String texto = "";
+
+            for (int i = 1; i <= 100; i++)
+            {
+                if (i % 3 == 0)
+                {
+                    texto = texto + ", " + i.ToString();
+                }
+            }
+
+            MessageBox.Show("Os números múltiplos de 3 são: " + texto);
+
+
+
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            int fatorial = 1;
+            for (int n = 1; n <= 10; n++)
+            {
+                fatorial = fatorial * n;
+                MessageBox.Show("fatorial(" + n + ") = " + fatorial);
+            }
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            string serieFibonacci = "";
+            int anterior = 0;
+            int atual = 1;
+            while (atual <= 100)
+            {
+                serieFibonacci += atual + " ";
+                int proximo = anterior + atual;
+                anterior = atual;
+                atual = proximo;
+            }
+            MessageBox.Show("A série de Fibonacci até 100: " + serieFibonacci);
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            int qtdLinhas = 5;
+            string triangulo = "";
+            for (int linha = 1; linha <= qtdLinhas; linha++)
+            {
+                for (int coluna = 1; coluna <= linha; coluna++)
+                {
+                    triangulo += (linha * coluna) + " ";
+                }
+                triangulo += "\n";
+            }
+            MessageBox.Show(triangulo);
+        }
     }
 }
