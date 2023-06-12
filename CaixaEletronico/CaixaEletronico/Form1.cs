@@ -114,5 +114,28 @@ namespace CaixaEletronico
                 MessageBox.Show("O imposto sera de " + imposto);
             }
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            double valorInvestido = 2000.0;
+            /* Estrutura for
+            for (int i = 1; i <= 12; i++)
+            {
+                valorInvestido *= 1.01;
+            }
+            */
+
+            /* Estrutura While */
+            int i = 1;
+            while (i <= 12)
+            {
+                valorInvestido *= 1.01;
+                i++;
+            }
+
+            MessageBox.Show("O valor investido agora é: " + valorInvestido);
+
+
+        }
     }
 }
