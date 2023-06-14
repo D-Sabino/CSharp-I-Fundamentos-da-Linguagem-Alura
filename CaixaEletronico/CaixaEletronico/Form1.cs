@@ -258,6 +258,38 @@ namespace CaixaEletronico
             outraConta.saldo = 1500.0;
 
             MessageBox.Show("O titular da conta " + umaConta.numero + " é " + umaConta.titular);
+
+
+
+            Conta guilherme = new Conta();
+            Conta mauricio = new Conta();
+
+            guilherme.saldo = 1500.0;
+            mauricio.saldo = 2000.0;
+
+            guilherme.Transfere(200.0, mauricio);
+
+            MessageBox.Show("O saldo da conta guilherme é " + guilherme.saldo);
+            MessageBox.Show("O saldo da conta mauricio é " + mauricio.saldo);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         }
     }
 }
