@@ -141,7 +141,6 @@ namespace CaixaEletronico
         private void button7_Click(object sender, EventArgs e)
         {
 
-            int[] array = new int[100];
             String texto = "";
 
             for (int i = 1; i <= 100; i++)
@@ -230,6 +229,20 @@ namespace CaixaEletronico
             MessageBox.Show("Os números múltiplos de 4 são: " + texto_4);
         }
 
-        
+        private void button13_Click(object sender, EventArgs e)
+        {
+            int soma = 0;
+
+            for (int i = 1; i <= 100; i++)
+            {
+                if (i % 3 != 0)
+                {
+                    soma += i;
+                }
+            }
+
+            MessageBox.Show("Total: " + soma);
+
+        }
     }
 }
