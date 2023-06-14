@@ -247,6 +247,7 @@ namespace CaixaEletronico
 
         private void button14_Click(object sender, EventArgs e)
         {
+            /*AULA 06*/
             Conta umaConta = new Conta();
             umaConta.numero = 1;
             umaConta.titular = "Joaquim";
@@ -257,10 +258,10 @@ namespace CaixaEletronico
             outraConta.titular = "Silva";
             outraConta.saldo = 1500.0;
 
-            MessageBox.Show("O titular da conta " + umaConta.numero + " é " + umaConta.titular);
+            //MessageBox.Show("O titular da conta " + umaConta.numero + " é " + umaConta.titular);
 
 
-
+            /*AULA 07*/
             Conta guilherme = new Conta();
             Conta mauricio = new Conta();
 
@@ -269,9 +270,22 @@ namespace CaixaEletronico
 
             guilherme.Transfere(200.0, mauricio);
 
-            MessageBox.Show("O saldo da conta guilherme é " + guilherme.saldo);
-            MessageBox.Show("O saldo da conta mauricio é " + mauricio.saldo);
+            //MessageBox.Show("O saldo da conta guilherme é " + guilherme.saldo);
+            //MessageBox.Show("O saldo da conta mauricio é " + mauricio.saldo);
 
+
+
+            /*AULA 08*/
+            Conta conta = new Conta();
+            Cliente cliente = new Cliente();
+
+            conta.cliente = cliente;
+
+            /*Duas formas de alterar o mesmo objeto*/
+            cliente.nome = "Victor"; //outra forma: conta.cliente.nome = ...
+            conta.cliente.rgTitular = "12345678-9"; //outra forma: cliente.rgtitular = ...
+
+            MessageBox.Show(conta.cliente.nome);
 
 
 
