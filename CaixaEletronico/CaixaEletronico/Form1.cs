@@ -244,5 +244,20 @@ namespace CaixaEletronico
             MessageBox.Show("Total: " + soma);
 
         }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            Conta umaConta = new Conta();
+            umaConta.numero = 1;
+            umaConta.titular = "Joaquim";
+            umaConta.saldo = 2000.0;
+
+            Conta outraConta = new Conta();
+            outraConta.numero = 2;
+            outraConta.titular = "Silva";
+            outraConta.saldo = 1500.0;
+
+            MessageBox.Show("O titular da conta " + umaConta.numero + " é " + umaConta.titular);
+        }
     }
 }
