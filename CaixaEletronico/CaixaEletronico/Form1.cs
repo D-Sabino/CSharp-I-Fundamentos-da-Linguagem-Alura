@@ -288,22 +288,6 @@ namespace CaixaEletronico
             MessageBox.Show(conta.cliente.nome);
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         }
     }
 }
