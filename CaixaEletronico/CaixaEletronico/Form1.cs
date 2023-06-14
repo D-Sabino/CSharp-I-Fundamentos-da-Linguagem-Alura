@@ -197,5 +197,39 @@ namespace CaixaEletronico
             }
             MessageBox.Show(triangulo);
         }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            int numero = 15;
+            
+            if (numero % 3 == 0)
+            {
+                MessageBox.Show("O numero " + numero + " é divisivel por 3!");
+            }else if (numero % 4 == 0)
+            {
+                MessageBox.Show("O numero " + numero + " é divisivel por 4!");
+            }
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            String texto_3 = "";
+            String texto_4 = "";
+
+            for (int i = 0; i <= 30; i++)
+            {
+                if (i % 3 == 0)
+                {
+                    texto_3 = texto_3 + ", " + i.ToString();
+                } else if (i % 4 == 0){
+                    texto_4 = texto_4 + ", " + i.ToString();
+                }
+            }
+
+            MessageBox.Show("Os números múltiplos de 3 são: " + texto_3);
+            MessageBox.Show("Os números múltiplos de 4 são: " + texto_4);
+        }
+
+        
     }
 }
